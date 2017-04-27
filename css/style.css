@@ -262,6 +262,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	padding-bottom: 30px;
 	text-align: center;
 }
+li {
+    text-align: left;
+}
 ul.cat li {
 	display: inline-block;
 }
