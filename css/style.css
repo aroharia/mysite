@@ -505,7 +505,7 @@ ol.type li a:hover {
 }
 .timeline .timeline-heading h4.subheading {
 	text-transform: none;
-	color: #8c2e32;    /* Change this for theme color */
+	color: "black";    /* Change this for theme color */
 	font-size: 20px;
 }
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
