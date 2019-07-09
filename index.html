@@ -94,7 +94,7 @@
       <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
       <div class="col-md-8 col-md-offset-2">
         <div class="about-text" style="text-align:center">
-          <p>Hi! I'm a 22 year old Firmware Engineer at Silicon Labs. I graduated from the University of Texas at Austin with a Bachelors of Science in Electrical & Computer Engineering. I created this website to archive and showcase a few of skills, technical projects, and industry experience. Apart from embedded software, I enjoy soccer, table tennis, camping, and anything outdoors really.</p>
+          <p>Hi! I'm a 23 year old Firmware Engineer at Silicon Labs. I graduated from the University of Texas at Austin with a Bachelors of Science in Electrical & Computer Engineering. I created this website to archive and showcase a few of skills, technical projects, and industry experience. Apart from embedded software, I enjoy soccer, table tennis, camping, and anything outdoors really.</p>
           <p class="text-center"><a class="btn btn-primary" href="img/Ashvin Roharia Resume.pdf"><i class="fa fa-download"></i> Download Resume</a></p>
           <!-- to add download resume button: <p class="text-center"><a class="btn btn-primary" href="#"><i class="fa fa-download"></i> Download Resume</a></p> -->
         </div>
@@ -116,7 +116,7 @@
       <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="95"> <span class="percent">85</span> </span>
         <h4>Assembly</h4>
       </div>     
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="90"> <span class="percent">80</span> </span>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="90"> <span class="percent">85</span> </span>
         <h4>Python</h4>
       </div>
       <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="90"> <span class="percent">80</span> </span>
@@ -343,10 +343,31 @@
               </div>
               <div class="timeline-body">
               <ul style="list-style-type:disc;padding-left:25px">
-                <li>Working on MCU firmware for IoT products</li>
-				<li>Developed 3 embedded software demos for new <a href="https://www.silabs.com/products/wireless/bluetooth"><b><font color="RED">BLE products</font></b></a> for embedded systems conferences and a customer facing SDK</li>
-				<li>Performed hardware validation of new board revisions</li> 
-				<li>Created batch scripts to automate programming firmware onto boards</li>
+                <li>Working on MCU firmware on the IoT Xpress Products Software Development Team</li>
+				<li><b><a href="https://www.youtube.com/watch?v=cstTKpq7wzQ">Bluetooth Xpress</a></b></li>
+                <iframe width=100% height=100% src="https://www.youtube.com/embed/cstTKpq7wzQ?start=45" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <ol style="list-style-type:disc;padding-left:25px">
+                  <li>Developed low-power embedded software demos (see video above) for new <a href="https://www.silabs.com/products/wireless/bluetooth"><b><font color="RED">BLE products</font></b></a> for embedded systems conferences and a customer facing SDK</li>
+				  <li>Performed hardware validation of new board revisions</li> 
+                  <li>Create BGX &harr; BGX streaming tests to allow long term reliability testing and throughput measurements</li>
+                  <li>Create BGX &harr; Mobile throughput test to determine ideal configuration</li>
+				  <li>Created batch scripts to automate programming board customizations</li>
+                </ol>
+                <li><b>Touch Xpress</b></li>
+                <iframe width=100% height=100% src="https://www.youtube.com/embed/8PfBm9z59Ks?start=56" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <ol style="list-style-type:disc;padding-left:25px">
+                    <li>Created python module to control a capsense testing robot</li>
+                    <li>Added touch detection analysis to allow platform to characterize a touch as pass of fail</li>
+                    <li>Setup an automated capsense test platform using grounded pads to simulate touches</li>
+                  </ol>
+                <li><b>USB Xpress</b></li>
+                  <ol style="list-style-type:disc;padding-left:25px">
+                    <li>This library appears to the host computer as a virtual COM port. This means you can connect to it with any utility that connects to a COM port, or if you are writing your own program, through the operating system's serial port interface</li>
+                    <li>Created brand new test suite for this USB to UART Bridge library</li>
+                    <li>Fixed multiple bugs with user API commands</li>
+                    <li>Added new features like user suspend configuration, zero-length-packet termination, etc.</li>
+                    <li>Set up library builds in Jenkins</li>
+                  </ol>
               </div>
             </div>
           </li>        
