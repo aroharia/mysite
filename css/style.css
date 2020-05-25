@@ -41,7 +41,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #8c2e32; /* This is where to change theme color */
+	color: #63c2d3; /* This is where to change theme color */
 }
 ul, ol {
 	list-style: none;
@@ -73,7 +73,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #8c2e32;
+	background: #63c2d3;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
@@ -119,13 +119,13 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #8c2e32;
+	color: #63c2d3;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #8c2e32;
+	color: #63c2d3;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -159,8 +159,8 @@ hr {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	background-color: #8c2e32;
-	border-color: #8c2e32;
+	background-color: #63c2d3;
+	border-color: #63c2d3;
 }
 .btn-primary i.fa {
 	margin-right: 10px;
@@ -174,7 +174,7 @@ hr {
 	text-align: center;
 	color: #fff;
 	background: url(../img/background.gif) no-repeat center top;
-	background-color: #8c2e32;
+	background-color: #63c2d3;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -204,7 +204,7 @@ hr {
 /* Skills Section */
 #skills {
 	padding: 100px 0;
-	background: #8c2e32;
+	background: #63c2d3;
 }
 #skills h2 {
 	color: #fff;
@@ -273,7 +273,7 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	background: #8c2e32;
+	background: #63c2d3;
 	color: #fff;
 	padding: 6px 14px;
 }
@@ -419,7 +419,7 @@ ol.type li a:hover {
 /* Achivements Section */
 #achievements {
 	padding: 100px 0;
-	background: #8c2e32;
+	background: #63c2d3;
 }
 #achievements h2 {
 	color: #fff;
@@ -502,7 +502,7 @@ ol.type li a:hover {
 	border: 1px solid #eee;
 	border-radius: 100%;
 	text-align: center;
-	background: #fff;
+	background: #63c2d3;
 }
 .timeline>li .timeline-image h4 {
 	margin-top: 20px;
@@ -549,7 +549,7 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
-	background: #8c2e32;
+	background: #63c2d3;
 }
 #contact h2 {
 	color: #fff;
@@ -666,7 +666,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #a0a5a5;
 }
 #footer a:hover {
-	color: #8c2e32;
+	color: #63c2d3;
 }
 
 /* Media Queries */
