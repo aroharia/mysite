@@ -22,6 +22,18 @@
       <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
       <script type="text/javascript" src="js/modernizr.custom.js"></script>
+      <!-- Normalize -->
+      <link rel="stylesheet" href="css/normalize.css">
+      <!-- Fonts -->
+      <link href="http://fonts.googleapis.com/css?family=Dosis:400,500,600,700" rel="stylesheet" type="text/css">
+      <!-- Font Awesome icons 4.2.1 -->
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <!-- Toggle button -->
+      <link rel="stylesheet" href="css/button.css"> <!-- custom style -->
+      <!-- Custom code -->
+      <link rel="stylesheet" href="css/framework.css"> <!-- 12 grid framework -->
+      <link rel="stylesheet" href="css/timeline.css">
+  
       <!--Google Analytics Code-->
       <script>
          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -40,9 +52,9 @@
       <div class="container">
           <div class="row">
             <div class="intro-text">
-               <h1> Hi, I'm <font color=#20B2AA>Ashvin</font><br></h1>
-                 <font color="White"><h2>I'm a </font><font color=#20B2AA><span class="amiya-fury" data-period="500" data-rotate='[ "Firmware Engineer.", "Software Developer."]'> </span></font>
-               </h2>
+               <h1> Hi, I'm <font color=#20B2AA>Ashvin</font></h1>
+                 <h1><font color="White">I'm a </font><font color=#20B2AA><span class="amiya-fury" data-period="500" data-rotate='[ "Firmware Engineer.", "Software Developer."]'> </span></font>
+                 </h1>
                <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> 
             </div>
          </div>
@@ -90,25 +102,71 @@
             </div>
          </nav>
       </div>
-      <!-- About Section -->
-      <div id="about">
-         <div class="container">
-            <div class="section-title text-center center">
-               <h2>About Me</h2>
-               <hr>
-            </div>
-            <div class="row">
-               <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
-               <div class="col-md-8 col-md-offset-2">
-                  <div class="about-text" style="text-align:center">
-                     <p>Hi! I'm a 24 year old Firmware Engineer at Silicon Labs. I graduated from the University of Texas at Austin with a Bachelors of Science in Electrical & Computer Engineering. I created this website to archive and showcase a few of my skills, technical projects, and industry experience. Apart from embedded software, I enjoy soccer, table tennis, camping, and anything outdoors really.</p>
-                     <p class="text-center"><a class="btn btn-primary" href="img/Ashvin Roharia Resume.pdf"><i class="fa fa-download"></i> Download Resume</a></p>
-                     <!-- to add download resume button: <p class="text-center"><a class="btn btn-primary" href="#"><i class="fa fa-download"></i> Download Resume</a></p> -->
-                  </div>
-               </div>
-            </div>
-         </div>
+      
+    <!-- About Section -->
+    <div class="container">
+        <div class="section-title text-center center">
+            <br><br><br><br>
+            <h2>About Me</h2>
+        </div>
+		<header class="col-12">
+            <figure><img src="img/about.jpg"></figure>
+			<div class="col-12 row longLink">
+				<div class="col-6 col-tab-11 col-ph-11 top online">
+					<div class="topLine"></div>
+					<h2>Academic</h2>
+				</div>
+				<div class="col-6 col-tab-11 col-ph-11 top offline">
+					<div class="topLine"></div>
+					<h2>Career</h2>
+				</div>
+			</div>
+		</header>
+		<section class="row col-tab-11 col-ph-11" id="timeline" role="main">
+			<ul class="col-12">
+				<!-- Timeline Listing -->
+				<li class="group item online">
+					<!-- Event --><!-- all projects go here -->
+					<section class="col-6 col-tab-12 col-ph-12 row event">
+						<div class="col-1 col-sm-2 col-ph-2 date">
+							<p>2014</p>
+						</div>
+						<div class="col-11 col-sm-10 col-ph-10 eventText">
+							<h4 class="inlineBlock">Started <a class="hyperlink" href="https://www.udacity.com/course/nd001" target="_blank">Front-End Web Developer Nanodegree</a> <i class="fa fa-graduation-cap"></i></h4>
+						</div>
+					</section>
+				</li><!-- event -->
+			</ul><!-- timeline listing -->
+		</section><!-- timeline -->
+		<footer class="col-12">
+			<div class="col-12 row longLink">
+				<div class="col-6 col-tab-11 col-ph-11 top online">
+					<div class="topLine"></div>
+				</div>
+				<div class="col-6 col-tab-11 col-ph-11 top offline">
+					<div class="topLine"></div>
+				</div>
+			</div><i class="fa fa-certificate"></i> <i class="fa fa-bolt"></i>
+			<div class="ribbon">
+				<p class="ribbon-content">1995</p>
+			</div>
+			<div class="switchWrap col-12">
+				<h4>Switch to see another side of me:</h4>
+				<div class="col-5 col-tab-5 col-ph-4 onlineSwitch">
+					<p>Academic</p>
+				</div>
+				<div class="switch col-2 col-tab-2 col-ph-4">
+					<input class="cmn-toggle cmn-toggle-round-flat" id="toggleBottom" type="checkbox"> <label for="toggleBottom"></label>
+				</div>
+				<div class="col-5 col-tab-5 col-ph-4 offlineSwitch">
+					<p>Career</p>
+				</div>
+			</div>
+            <br>
+            <p class="text-center"><a class="btn btn-primary" href="img/Ashvin Roharia Resume.pdf"><i class="fa fa-download"></i> Download Resume</a></p>
+		</footer>  
       </div>
+      
       <!-- Skills Section -->
       <div id="skills" class="text-center">
          <div class="container">
@@ -806,5 +864,9 @@
       <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
       <script type="text/javascript" src="js/contact_me.js"></script> 
       <script type="text/javascript" src="js/main.js"></script>
+      
+        <!-- Non-blocking JS -->
+      <script src="js/jquery-2.1.1.min.js"></script>
+      <script src="js/script.js"></script>  <!-- custom JS -->
    </body>
 </html>
