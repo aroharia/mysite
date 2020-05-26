@@ -5,7 +5,7 @@ body {
 a { text-decoration: none; }
 
 img { max-width: 100%; }
-figure { margin: 0; }
+figure { margin: 0; left: 15px;}
 h2 { font-weight: 400; }
 h3 { font-weight: 600; }
 h4 { font-weight: 500; }
@@ -59,8 +59,8 @@ address {
 
 /* |||||||||||||||||||||||    Timeline    ||||||||||||||||||||||||| */
 
-.online a.hyperlink { border-bottom: 1px dotted #EF596F; }
-.offline a.hyperlink { border-bottom: 1px dotted #2EC7CE; }
+.online a.hyperlink { border-bottom: 1px dotted #EF596F; left: 20px;}
+.offline a.hyperlink { border-bottom: 1px dotted #2EC7CE; right: -20px;}
 
 .top {
   position: relative;
@@ -92,11 +92,11 @@ address {
 }
 .online .topLine{
   border-bottom: 2px dotted #EF596F;
-  right: 0;
+  right: -10px;
 }
 .offline .topLine{
   border-bottom: 2px dotted #2EC7CE;
-  left: 0;
+  left: 10px;
 }
 
 #timeline {
@@ -305,8 +305,8 @@ address {
   position: relative;
   bottom: 22px;
 }
-.online .date { border-bottom: 2px dotted #EF596F; }
-.offline .date { border-bottom: 2px dotted #2EC7CE; }
+.online .date { border-bottom: 2px dotted #EF596F; right: -14px;}
+.offline .date { border-bottom: 2px dotted #2EC7CE; left: 15px;}
 
 .date > p {
   font-size: .85em;
