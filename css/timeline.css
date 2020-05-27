@@ -481,7 +481,7 @@ footer .offlineSwitch { top: 3px; }
   #timeline::after { left: 0; }
 
   #timeline::after,
-  .offline { display: none; }
+  .offline { display: block; }
 
   footer .longLink,
   .switchWrap { display: block; }
