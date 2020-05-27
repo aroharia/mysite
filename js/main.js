@@ -174,9 +174,9 @@ $('#nav').affix({
 	//var windowBottom = $(window).height();
 	var index=0;
 	$(document).scroll(function(){
-		var top = $('#skills').height()-$(window).scrollTop();
-		console.log(top)
-		if(top<-10){
+		//var top = $(window).height()-$(window).scrollTop();
+		//console.log(top)
+		if($(window).height()<$(window).scrollTop()){
 			if(index==0){	
 				$('.chart').easyPieChart({
 					easing: 'easeOutBounce',
